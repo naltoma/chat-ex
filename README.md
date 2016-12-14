@@ -23,6 +23,18 @@
   - マルチクライアント対応（スレッド例）
   - 簡易GUI例？
 
+## 利用してるAPIへのリンク
+- 入出力周り
+  - [java.io.InputStreamReader](http://docs.oracle.com/javase/8/docs/api/javax/sound/sampled/AudioInputStream.html); //入力ストリーム
+  - [java.io.BufferedReader](http://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html); //効率よく入力ストリームを処理するためのバッファ
+  - [java.io.IOException](http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html);
+  - [java.io.PrintWriter](http://docs.oracle.com/javase/8/docs/api/java/io/PrintWriter.html); //サーバへの出力ストリームを処理するライブラリ
+- サーバ、通信周り
+  - [java.net.ServerSocket](http://docs.oracle.com/javase/8/docs/api/java/net/ServerSocket.html); //サーバ
+  - [java.net.Socket](http://docs.oracle.com/javase/8/docs/api/java/net/Socket.html); //ソケット(通信を行う際の端点)
+  - [java.net.InetAddress](http://docs.oracle.com/javase/8/docs/api/java/net/InetAddress.html); //ローカルIP取得
+  - [java.net.UnknownHostException](http://docs.oracle.com/javase/8/docs/api/java/net/UnknownHostException.html);
+
 ## 参考サイト
 - [Creating a simple Chat Client/Server Solution](http://pirate.shu.edu/~wachsmut/Teaching/CSAS2214/Virtual/Lectures/chat-client-server.html)
 - [演習3-1 サーバとクライアント](http://yoslab.net/netprog/index.php?%B1%E9%BD%AC3-1%20%A5%B5%A1%BC%A5%D0%A4%C8%A5%AF%A5%E9%A5%A4%A5%A2%A5%F3%A5%C8)
