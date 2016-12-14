@@ -1,7 +1,8 @@
 # サーバ・クライアントなコード例: チャット
 ## 使い方
 - コンパイル
-  - src/main/java に移動して、``javac *.java``
+  - build.gradleがあるディレクトリに移動して、``gradle compileJava``
+  - build/classes/mainの下にclassファイルが生成されるので、そこに移動。
 - 実行方法
   - サーバ側
     - ``java ChatServer ポート番号``
