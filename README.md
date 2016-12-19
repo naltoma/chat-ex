@@ -1,6 +1,9 @@
 # サーバ・クライアントなコード例: チャット
 ## 使い方
 - コンパイル
+  - ターミナルでクローン作成。
+    - 作業用ディレクトリ上で以下を実行。
+      - ``git clone https://github.com/naltoma/chat-ex.git``
   - build.gradleがあるディレクトリに移動して、``gradle compileJava``
   - build/classes/mainの下にclassファイルが生成されるので、そこに移動。
 - 実行方法
