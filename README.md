@@ -5,7 +5,7 @@
     - 作業用ディレクトリ上で以下を実行。
       - ``git clone https://github.com/naltoma/chat-ex.git``
   - build.gradleがあるディレクトリに移動して、``gradle compileJava``
-  - build/classes/mainの下にclassファイルが生成されるので、そこに移動。
+  - build/classes/java/mainの下にclassファイルが生成されるので、そこに移動。
 - 実行方法
   - サーバ側
     - ``java ChatServer ポート番号``
@@ -16,7 +16,7 @@
     - ``java ChatClient サーバのIPアドレス ポート番号``
       - 「サーバのIPアドレス」は、ChatServer起動時に出力されるはず。
       - 「ポート番号」は、サーバ起動時に指定したポート番号を入力しよう。
-    - サーバに接続詞た後は、「.bye」が入力されるまで自由にテキスト入力できる。
+    - サーバに接続した後は、「.bye」が入力されるまで自由にテキスト入力できる。
 
 ## 前提
 - プログラミング言語は、授業でPythonで15週。C言語2週。Java8週程度済み。
